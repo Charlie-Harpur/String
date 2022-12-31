@@ -104,7 +104,7 @@ char * String::copyData(const String &rS)
     int stringLength = rS.getLength();
     char *pCopy = new char[stringLength + 1];
     for (int i = 0; i < stringLength; i++)
-        pCopy[i] = rS[i];
+	    pCopy[i] = rS[i];
     return pCopy;
 }
 
